@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange_dark_500">#FF6045</color>
+    <color name="orange_dark_200">#FD806A</color>
+    <color name="orange_light">#FEE5E1</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_background_light">#EFEFEF</color>
+    <color name="app_background_dark">#2E2E2E</color>
+    <color name="icon_light_color">#ffffff</color>
+    <color name="icon_dark_color">#4C4C4C</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_all_category"
+        android:icon="@drawable/all_category"
+        android:title="@string/allCategory"/>
+
+    <item
+        android:id="@+id/navigation_my_interested"
+        android:icon="@drawable/my_interested"
+        android:title="@string/myInterested"/>
+</menu>

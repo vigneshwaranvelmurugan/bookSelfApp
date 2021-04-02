@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/card_elevation"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginTop="5sp"
+    android:layout_marginBottom="5sp"
+    app:cardCornerRadius="5sp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginRight="10sp">
+        <LinearLayout
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:orientation="vertical"
+            android:background="@drawable/common_box"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:backgroundTint="@color/orange_light">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/orange_dark_500"
+                android:id="@+id/categoryLabel"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="15sp"
+            android:layout_marginRight="5sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object-Oriented Programming"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:id="@+id/categoryText"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object-Oriented Programming"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:id="@+id/booksCount"
+                android:layout_marginTop="5sp"
+                />
+
+        </LinearLayout>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:id="@+id/categoryCheck"
+            android:buttonTint="@color/orange_dark_500"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

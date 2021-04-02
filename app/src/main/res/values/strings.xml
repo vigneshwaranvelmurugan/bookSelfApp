@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BookSelf</string>
+    <string name="allCategory">All Category</string>
+    <string name="myInterested">My Interested</string>
+    <string name="search">Search</string>
+    <string name="select_category">Select Category</string>
+    <string name="done">Done</string>
+    <string name="publisherDate">Publisher Date</string>
+    <string name="pageCount">Total Page</string>
+    <string name="isbn">ISBN</string>
+    <string name="shortDescription">Short Description</string>
+    <string name="fullDescription">Full Description</string>
+    <string name="noInterstedbooks">No Interested Books Found..</string>
+    <item type="id" name="facIconTag" />
+</resources>
